@@ -1,0 +1,73 @@
+site_name: API Especificación
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  language: es
+  footer: false
+  logo: _assets/images/logo.svg
+  favicon: _assets/images/cmf_favicon.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.path
+    - breadcrumbs
+    - navigation.footer
+    #- toc.integrate
+    #- navigation.top
+    #- search.suggest
+    #- search.highlight
+    #- search.share
+
+plugins:
+  - search
+  - tags
+
+extra_css:
+  - _assets/css/custom.css  # Ruta al archivo CSS personalizado
+
+extra:
+  social:
+    - icon: fontawesome/brands/spotify
+      link: https://open.spotify.com/show/1HLvJDt3tsJ0CgVlzrj5G9
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/cmf_chile/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/people/Comisi%C3%B3n-para-el-Mercado-Financiero/61559730273010/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCcL5F70_AF2MxsgLcuBAjyg
+    - icon: fontawesome/brands/linkedin
+      link: https://cl.linkedin.com/company/comisi%C3%B3n-para-el-mercado-financiero-cmf
+    - icon: fontawesome/brands/whatsapp
+      link: https://www.whatsapp.com/channel/0029Va6Um6pHgZWfL3DCrJ37
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/CMFChile_
+
+extra_html:
+  - '<footer style="text-align:center;">'
+  - '<img src="https://www.ejemplo.com/mi-imagen.png" alt="Logo del Footer" style="max-width:100px;">'  # Reemplaza con tu imagen
+  - '</footer>'
+
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+nav:
+  - Version 1.0:
+    - API Cuentas y Transacciones:
+      - Consentimiento de acceso a la cuenta: version-1.0/api-cuentas-transacciones/consentimiento-acceso-cuenta.md
+      - Cuentas: version-1.0/api-cuentas-transacciones/cuentas.md
+      - Saldos: version-1.0/api-cuentas-transacciones/saldos.md
+      - Actas: version-1.0/api-cuentas-transacciones/actas.md
+      - Beneficiarios: version-1.0/api-cuentas-transacciones/beneficiarios.md
+      - Débitos Directos: version-1.0/api-cuentas-transacciones/debito-directo.md
+      - Reglamento Interno: version-1.0/api-cuentas-transacciones/reglamento-interno.md
+      - Ofertas: version-1.0/api-cuentas-transacciones/ofertas.md
+

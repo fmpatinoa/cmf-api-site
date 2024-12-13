@@ -1,0 +1,31 @@
+/* Cambiar el color de fondo del footer */
+footer {
+    background-color: #575759 !important;  /* Fondo oscuro, puedes cambiar el color */
+    color: #ffffff;  /* Texto blanco */
+}
+
+/* Cambiar el color del texto en los enlaces del footer */
+footer a {
+    color: #ffffff;  /* Enlaces blancos */
+}
+
+/* Opcional: Cambiar color del texto al pasar el mouse (hover) */
+footer a:hover {
+    color: #ffcc00;  /* Color al pasar el mouse (ejemplo: amarillo) */
+}
+
+.md-footer-meta {
+    background-color: #575759 !important;  /* Fondo oscuro, puedes cambiar el color */
+    color: #ffffff;  /* Texto blanco */
+}
+
+/* Cambiar el color del texto en los enlaces del footer */
+.md-footer-meta a {
+    color: #ffffff;  /* Enlaces blancos */
+}
+
+/* Opcional: Cambiar color del texto al pasar el mouse (hover) */
+.md-footer-meta a:hover {
+    color: #ffcc00;  /* Color al pasar el mouse (ejemplo: amarillo) */
+}
+
