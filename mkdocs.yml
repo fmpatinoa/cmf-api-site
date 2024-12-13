@@ -62,12 +62,12 @@ markdown_extensions:
 nav:
   - Version 1.0:
     - API Cuentas y Transacciones:
-      - Consentimiento de acceso a la cuenta: version-1.0/api-cuentas-transacciones/consentimiento-acceso-cuenta.md
+      - Consentimiento acceso a cuenta: version-1.0/api-cuentas-transacciones/consentimiento-acceso-cuenta.md
       - Cuentas: version-1.0/api-cuentas-transacciones/cuentas.md
-      - Saldos: version-1.0/api-cuentas-transacciones/saldos.md
-      - Actas: version-1.0/api-cuentas-transacciones/actas.md
-      - Beneficiarios: version-1.0/api-cuentas-transacciones/beneficiarios.md
-      - Débitos Directos: version-1.0/api-cuentas-transacciones/debito-directo.md
-      - Reglamento Interno: version-1.0/api-cuentas-transacciones/reglamento-interno.md
-      - Ofertas: version-1.0/api-cuentas-transacciones/ofertas.md
+      #- Saldos: version-1.0/api-cuentas-transacciones/saldos.md
+      #- Actas: version-1.0/api-cuentas-transacciones/actas.md
+      #- Beneficiarios: version-1.0/api-cuentas-transacciones/beneficiarios.md
+      #- Débitos Directos: version-1.0/api-cuentas-transacciones/debito-directo.md
+      #- Reglamento Interno: version-1.0/api-cuentas-transacciones/reglamento-interno.md
+      #- Ofertas: version-1.0/api-cuentas-transacciones/ofertas.md
 
