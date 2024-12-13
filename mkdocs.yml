@@ -1,5 +1,6 @@
 site_name: API Especificación
-site_url: https://mydomain.org/mysite
+site_url: https://fmpatinoa.github.io/cmf-api-site
+copyright: '<img src="https://fmpatinoa.github.io/cmf-api-site/_assets/images/logo.svg" style="width:150px;" />'
 theme:
   name: material
   language: es
@@ -28,6 +29,7 @@ extra_css:
   - _assets/css/custom.css  # Ruta al archivo CSS personalizado
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/spotify
       link: https://open.spotify.com/show/1HLvJDt3tsJ0CgVlzrj5G9
